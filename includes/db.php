@@ -5,6 +5,12 @@ $db['db_user'] = "root";
 $db['db_pass'] = "";
 $db['db_name'] = "userreg";
 
+// $db['db_host'] = "sql105.epizy.com"; //	MySQL Host Name
+// $db['db_user'] = "epiz_33063259"; //	MySQL User Name
+// $db['db_pass'] = "wgam70WsWsAc"; // vpanel password
+// $db['db_name'] = "epiz_33063259_userreg"; // MySQL DB Name
+
+
 foreach($db as $key => $value){
     define(strtoupper($key), $value);
 }
